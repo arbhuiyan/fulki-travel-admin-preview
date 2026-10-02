@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="it">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="theme-color" content="#000000" />
+        <meta name="description" content="Fulki Admin — manage agencies, credit and performance." />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <title>Fulki Admin</title>
+      <script>
+(function () {
+  var key = "fulkiAdmin.root", path = location.pathname, root;
+  try { root = localStorage.getItem(key); } catch (e) {}
+  var isIndex = false;
+  if (isIndex) root = path.slice(0, path.lastIndexOf("/") + 1);
+  else if (!root || path.indexOf(root) !== 0) {
+    var first = path.split("/")[1];
+    var pages = location.hostname.slice(-10) === ".github.io";
+    root = pages && first ? "/" + first + "/" : "/";
+  }
+  try { localStorage.setItem(key, root); } catch (e) {}
+  var base = document.createElement("base");
+  base.href = root;
+  document.head.prepend(base);
+})();
+(function (assets) {
+  assets.forEach(function (a) {
+    var el;
+    if (a.kind === "script") { el = document.createElement("script"); el.type = "module"; el.src = a.url; }
+    else { el = document.createElement("link"); el.rel = a.kind; el.href = a.url; }
+    el.crossOrigin = "";
+    document.head.appendChild(el);
+  });
+})([{"kind":"script","url":"./assets/index-Rcq8fcS5.js"},{"kind":"modulepreload","url":"./assets/useI18n-oVy7yIOG.js"},{"kind":"modulepreload","url":"./assets/react-dom-wyACMcMT.js"},{"kind":"modulepreload","url":"./assets/store-Ma7dSozX.js"},{"kind":"modulepreload","url":"./assets/matchContext-CjLAUcld.js"},{"kind":"modulepreload","url":"./assets/useNavigate-CZD7Qukm.js"},{"kind":"modulepreload","url":"./assets/preload-helper-lwyrFdgi.js"},{"kind":"modulepreload","url":"./assets/permissions-DrjACPPB.js"},{"kind":"modulepreload","url":"./assets/audit-DpcFkogX.js"},{"kind":"modulepreload","url":"./assets/access-BAV4ov3e.js"},{"kind":"modulepreload","url":"./assets/platform-V7zAKI1T.js"},{"kind":"modulepreload","url":"./assets/activity-VtdE14F5.js"},{"kind":"modulepreload","url":"./assets/tenants-BcHyFr2w.js"},{"kind":"stylesheet","url":"./assets/index-BNUQAYGk.css"}]);</script>
+  </head>
+    <body>
+        <noscript>You need to enable JavaScript to run this app.</noscript>
+        <div id="root"></div>
+    </body>
+</html>
