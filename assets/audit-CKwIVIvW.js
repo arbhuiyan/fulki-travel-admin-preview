@@ -1,0 +1,1 @@
+import{n as e,t}from"./store-Co80myJT.js";var n=`fulkiAdmin.audit.v1`,r=1e3,i=t(n,()=>[],e=>Array.isArray(e)?e:[]);function a(t){try{i.update(n=>[{id:e(`aud`),at:Date.now(),...t},...n].slice(0,r))}catch{}}var o=()=>i.use();export{o as i,i as n,a as r,n as t};
