@@ -1,0 +1,1 @@
+import{l as e,s as t}from"./useI18n-DGGwuWjy.js";import{s as n}from"./store-fp-m55_r.js";var r=e(t(),1);function i(e){let t=n();return r.useCallback(n=>t.navigate({...n,from:n.from??e?.from}),[e?.from,t])}export{i as t};
