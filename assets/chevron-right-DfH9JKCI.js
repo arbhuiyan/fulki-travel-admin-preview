@@ -1,0 +1,1 @@
+import{l as e}from"./permissions-Bf3szj-G.js";var t=e(`chevron-right`,[[`path`,{d:`m9 18 6-6-6-6`,key:`mthhwq`}]]);export{t};
