@@ -1,1 +1,0 @@
-import{a as e}from"./useI18n-jB20ke3U.js";import{o as t}from"./format-Cw9NwoOv.js";function n(n){let r=e=>t(e,{cents:!Number.isInteger(e)});return[`monthly`,`issue`,`change`,`refund`,`cancel`].map(t=>`${e(`platformFees.op.${t}`)} ${r(n[t])}`).join(` · `)}export{n as t};
