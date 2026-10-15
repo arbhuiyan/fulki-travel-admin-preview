@@ -1,0 +1,1 @@
+import{o as e}from"./useI18n-CafZDbH8.js";import{b as t}from"./index-CeEp6oW7.js";import{n}from"./Access-NDamHbJk.js";import{t as r}from"./AirlineEditor-BcnoVTz1.js";var i=e();function a(){let{airlineId:e}=t.useParams();return(0,i.jsx)(n,{permission:`airlines.view`,children:(0,i.jsx)(r,{airlineId:e},e)})}export{a as component};
