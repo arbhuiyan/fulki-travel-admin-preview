@@ -1,1 +1,0 @@
-import{l as e}from"./permissions-CJ2oi_4F.js";var t=e(`circle`,[[`circle`,{cx:`12`,cy:`12`,r:`10`,key:`1mglay`}]]);export{t};
