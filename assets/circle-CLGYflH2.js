@@ -1,1 +1,0 @@
-import{l as e}from"./permissions-Vl2FVTmj.js";var t=e(`circle`,[[`circle`,{cx:`12`,cy:`12`,r:`10`,key:`1mglay`}]]);export{t};
