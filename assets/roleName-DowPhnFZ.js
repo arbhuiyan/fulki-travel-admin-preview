@@ -1,1 +1,0 @@
-import{a as e}from"./useI18n-CA-W1gv8.js";import{c as t}from"./permissions-k-Eq_DCP.js";function n(n){if(n.owner)return e(`roles.owner`);let r=t(n.permissions);return e(r?`roles.${r.id}`:`roles.custom`)}export{n as t};

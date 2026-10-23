@@ -1,1 +1,0 @@
-import{l as e,s as t}from"./useI18n-CA-W1gv8.js";import{s as n}from"./store-TVGPJ4FH.js";var r=e(t(),1);function i(e){let t=n();return r.useCallback(n=>t.navigate({...n,from:n.from??e?.from}),[e?.from,t])}export{i as t};
