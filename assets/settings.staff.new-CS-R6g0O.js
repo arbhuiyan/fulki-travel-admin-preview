@@ -1,0 +1,1 @@
+import{o as e}from"./useI18n-CA-W1gv8.js";import{t}from"./StaffEditor-BEh92SSX.js";var n=e(),r=()=>(0,n.jsx)(t,{});export{r as component};
