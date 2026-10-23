@@ -1,0 +1,1 @@
+import{a as e}from"./format-BgXEabtG.js";var t=(t,n={day:`numeric`,month:`short`,year:`numeric`})=>`${e(t.slice(0,10),n)} ${t.slice(11,16)}`;function n(e){let t=Math.floor(e/60),n=e%60;return t?`${t}h ${String(n).padStart(2,`0`)}m`:`${n}m`}export{t as n,n as t};
