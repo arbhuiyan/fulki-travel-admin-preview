@@ -1,0 +1,1 @@
+import{o as e}from"./useI18n-CulWumnG.js";import{r as t}from"./Access-8v-lBwzJ.js";import{t as n}from"./AirlineEditor-Qe4kk1r2.js";var r=e(),i=()=>(0,r.jsx)(t,{permission:`airlines.manage`,children:(0,r.jsx)(n,{})});export{i as component};

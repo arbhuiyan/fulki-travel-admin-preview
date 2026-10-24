@@ -1,1 +1,0 @@
-import{a as e}from"./useI18n-CaIcqk6T.js";import{c as t}from"./permissions-vAvmp9AP.js";function n(n){if(n.owner)return e(`roles.owner`);let r=t(n.permissions);return e(r?`roles.${r.id}`:`roles.custom`)}export{n as t};
