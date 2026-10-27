@@ -1,1 +1,0 @@
-import{o as e}from"./useI18n-ByiZgg2i.js";import{d as t}from"./index-CyfjUp9L.js";import{t as n}from"./StaffEditor-bkDWWG7P.js";var r=e();function i(){let{staffId:e}=t.useParams();return(0,r.jsx)(n,{staffId:e})}export{i as component};
