@@ -1,0 +1,1 @@
+import{u as e}from"./permissions-Cn45FRnW.js";var t=e(`circle`,[[`circle`,{cx:`12`,cy:`12`,r:`10`,key:`1mglay`}]]);export{t};
